@@ -1,0 +1,13 @@
+
+
+.gradient-hover-btn {
+    border-radius: 20px;
+    transition: background 0.4s ease, color 0.4s ease;
+  }
+  
+  .gradient-hover-btn:hover {
+    background: linear-gradient(90deg, #181818, #ff7b00);
+    color: white;
+    border: none;
+  }
+  

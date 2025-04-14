@@ -1,0 +1,36 @@
+body {
+    background-color: #0e061d;
+    color: #cf0606;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    width: 2px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(135deg, #ff0080, #7928ca);
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,10 @@
+<div class="container py-5">
+    <div class="timeline">
+      <div class="timeline-item" *ngFor="let stat of stats">
+        <div class="timeline-dot"></div>
+        <h4 class="fw-bold mb-1">{{ stat.value }}</h4>
+        <p class="mb-0 ">{{ stat.text }}</p>
+      </div>
+    </div>
+  </div>
+  
