@@ -1,10 +1,26 @@
 <div class="container py-5">
-    <div class="timeline">
-      <div class="timeline-item" *ngFor="let stat of stats">
-        <div class="timeline-dot"></div>
-        <h4 class="fw-bold mb-1">{{ stat.value }}</h4>
-        <p class="mb-0 ">{{ stat.text }}</p>
+  <div class="row align-items-center">
+    <!-- LEFT COLUMN: TIMELINE -->
+    <div class="col-md-6">
+      <div class="timeline">
+        <div class="timeline-item" *ngFor="let stat of stats">
+          <div class="timeline-dot"></div>
+          <h4 class="fw-bold mb-1">{{ stat.value }}</h4>
+          <p class="mb-0">{{ stat.text }}</p>
+        </div>
       </div>
     </div>
+
+    <!-- RIGHT COLUMN: HEADING -->
+    <div class="col-md-6 text-center text-md-start">
+      <h1 class="display-5 fw-bold">
+        Let's embark <br />
+        on the <br />
+        journey.
+      
+      </h1>
+      <button type="button" class="btn btn-outline-info gradient-hover-btn" style="border-radius: 20px;">Let’s Build Together</button>
+    </div>
+    
   </div>
-  
+</div>
