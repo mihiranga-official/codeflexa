@@ -10,9 +10,9 @@ import { Component } from '@angular/core';
 })
 export class TimelineComponent {
   stats = [
-    { value: '+24M', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.' },
-    { value: '+14Y', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.' },
-    { value: '94%', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.' },
-    { value: '150K+', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.' }
+    { value: '+6Y Years of Industry Expertise', text: "With six years of dedicated service, we've consistently delivered innovative solutions and exceptional quality to our clients. "},
+    { value: '+14Y Team Experience Combined', text: 'With over 14 years of combined experience, our team brings innovation, strategy, and insight to every project.' },
+    { value: '94% Client Satisfaction Rate', text: 'A 94% satisfaction rate reflects our unwavering commitment to excellence and client-first approach.' },
+    { value: '15K+ Users Impacted Globally', text: 'Users Impacted Globally More than 15K users around the world trust our solutions to drive performance and results.' }
   ];
 }
