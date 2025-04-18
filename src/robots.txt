@@ -1,0 +1,11 @@
+# robots.txt for Craftiki
+
+User-agent: *
+Allow: /
+
+# Allow important assets
+Allow: /
+
+
+# Sitemap (add if you have a sitemap file)
+Sitemap: https://codeflexa.vercel.app/sitemap.xml
