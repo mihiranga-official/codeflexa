@@ -1,4 +1,4 @@
-# robots.txt for Craftiki
+# robots.txt for Code Flexa
 
 User-agent: *
 Allow: /
